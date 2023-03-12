@@ -1,0 +1,197 @@
+/* * BISMILLAH  */
+
+
+/* *MEDIA MOBILE START */
+
+@media  only screen and (min-width: 320px) and (max-width: 568px){
+    header 
+    {
+        width: 55vw;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    
+    header > h2 
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.6em;
+        color: black;
+    }
+    .accordion-wrapper 
+    {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .accordion 
+    {
+        align-items: center;
+        color: #444;
+        background-color: #F5F5EB;
+        cursor: pointer;
+        width: 100vw;
+        margin: 0 auto;
+        border: none;
+        font-size: 1em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordion:after 
+    {
+        content: "";
+    }
+    .card 
+    {
+        margin: 0 auto;
+        width: 100vw;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        background-color: #F5F5EB;
+        border: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+    }
+    .card > img
+    {
+        width: 20em;
+    }
+    .accordion.active + .main-card 
+    {
+        height: 20em;
+        border-radius: 0px 0px 6px 6px;
+    }
+    }
+/* *MEDIA MOBILE END */
+
+
+/* *MEDIA TABLET START */
+@media  only screen and (min-width: 820px ) and (max-width: 1080px) {
+    header 
+    {
+        padding-top: 10px;
+        width: 100vw;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    
+    header > h2 
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.8em;
+        color: black;
+    }
+    .accordion-wrapper 
+    {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .accordion 
+    {
+        align-items: center;
+        color: #444;
+        background-color: #F5F5EB;
+        cursor: pointer;
+        width: 100vw;
+        margin: 0 auto;
+        border: none;
+        font-size: 1.5em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordion:after 
+    {
+        content: "";
+    }
+    .card 
+    {
+        margin: 0 auto;
+        width: 100vw;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        background-color: #F5F5EB;
+        border: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+    }
+    .card > img
+    {
+        width: 25em;
+    }
+    .accordion.active + .main-card 
+    {
+        height: 25em;
+        border-radius: 0px 0px 6px 6px;
+    }
+    }
+/* *MEDIA TABLET END */
+
+
+
+/* *MEDIA DESKTOP START */
+/* @media  only screen and (min-width: 1080px ) and (max-width: 1920px) {
+    header 
+    {
+        padding-top: 10px;
+        width: 100vw;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    
+    header > h2 
+    {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 2em;
+        color: black;
+    }
+    .accordion-wrapper 
+    {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .accordion 
+    {
+        align-items: center;
+        color: #444;
+        background-color: #F5F5EB;
+        cursor: pointer;
+        width: 100vw;
+        margin: 0 auto;
+        border: none;
+        font-size: 1.8em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .accordion:after 
+    {
+        content: "";
+    }
+    .card 
+    {
+        margin: 0 auto;
+        width: 100vw;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        background-color: #F5F5EB;
+        border: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+    }
+    .card > img
+    {
+        width: 30em;
+    }
+    .accordion.active + .main-card 
+    {
+        height: 30em;
+        border-radius: 0px 0px 6px 6px;
+    }
+    } */
+/* *MEDIA DESKTOP END */
